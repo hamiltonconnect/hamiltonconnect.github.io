@@ -24,7 +24,7 @@
                     data: {
                         email: h
                     },
-                    dataType: "json",
+                    dataType: "jsonp",
                     error: function(e) {
                         o.hide();
                         $(".fa-spinner").addClass("opacity-0").removeClass("fa-spin");

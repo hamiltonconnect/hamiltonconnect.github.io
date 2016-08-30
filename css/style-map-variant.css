@@ -1133,7 +1133,7 @@ sup {
 #subscribe #notifyMe .form-group .form-control:-ms-input-placeholder {
   color: #747c83 !important;
 }
-#subscribe #notifyMe .form-group button.submit {
+#submit_button {
   border: 2px solid #00c8aa;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1157,7 +1157,7 @@ sup {
   -o-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
   transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
 }
-#subscribe #notifyMe .form-group button.submit:hover {
+#submit_button:hover {
   background: #00af94;
   color: #FFFFFF;
 }
@@ -1934,7 +1934,7 @@ footer p {
     margin: 0;
     float: left;
   }
-  #subscribe #notifyMe .form-group button.submit {
+  #submit_button {
     width: 30%;
     margin: 0;
     float: left;

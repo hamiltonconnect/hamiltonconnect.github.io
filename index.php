@@ -1,4 +1,4 @@
-<?php header('Access-Control-Allow-Origin: *'); ?>
+<?php header('Access-Control-Allow-Origin: *'); 
 <!DOCTYPE html>
 <html lang="en-us" class="no-js">
 
@@ -447,3 +447,4 @@
 	</body>
 
 </html>
+?>

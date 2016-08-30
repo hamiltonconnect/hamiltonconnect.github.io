@@ -103,6 +103,7 @@ $(document).ready(function(){
             });
         }, 350);
     });
+    
 
     $('button#close-more-info').on( "click", function() {
         $(".overlay").addClass("skew-part");

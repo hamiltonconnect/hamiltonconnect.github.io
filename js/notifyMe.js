@@ -23,8 +23,14 @@
                       data: {
                         email: h
                     },
-                    url: "https://formspree.io/hamiltonconnectme@gmail.com",
+                    url: s,
                     dataType: "jsonp",
+                    error: function(e) {
+                        console.log('error');
+                    },
+                    success: function(e) {
+                        console.log('success');
+                    }
 //                    error: function(e) {
 //                        o.hide();
 //                        $(".fa-spinner").addClass("opacity-0").removeClass("fa-spin");

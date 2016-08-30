@@ -220,7 +220,7 @@ $(document).ready(function(){
     /* 4. Newsletter ........................ */
     /* ------------------------------------- */
 
-    $("#notifyMe").notifyMe();
+//    $("#notifyMe").notifyMe();
 
     (function() {
 

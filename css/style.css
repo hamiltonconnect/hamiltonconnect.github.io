@@ -35,7 +35,7 @@
 @import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700");
 /*
-* http://meyerweb.com/eric/tools/css/reset/ 
+* http://meyerweb.com/eric/tools/css/reset/
 * v2.0 | 20110126
 * License: none (public domain)
 */
@@ -108,7 +108,7 @@ table {
   margin: 0 auto;
 }
 #loading #preloader:after {
-  content: "Phly is loading";
+  content: "Loading...";
   /* Text under the circles */
   position: absolute;
   text-transform: uppercase;
@@ -1014,7 +1014,7 @@ sup {
   z-index: 5;
   opacity: 0;
   overflow: hidden;
-  background: url(../img/background-newsletter.jpg) center;
+  background: url(../img/bubble-pattern.png) center;
   background-size: cover;
   border: 10px solid #2B2D35;
 }
